@@ -4,7 +4,7 @@ import { AuthContext } from '@/context/AuthContext';
 
 import type { AuthContextType } from '@/types/auth';
 
-export const useAuth = (): AuthContextType => {
+export const useFBAuth = (): AuthContextType => {
   const context = useContext(AuthContext);
 
   if (!context) {
